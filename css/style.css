@@ -84,3 +84,40 @@ body {
   color: #cb0044;
   font: 45px/60px lubalin_for_ibmdemi, Arial, sans-serif;
 }
+.car {
+  position: absolute;
+  top: 17px;
+  left:  200px;
+  width: 154px;
+  height: 147px;
+  z-index: 4;
+}
+.car .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.car .wheel.back {
+  left: 10px;
+}
+.car .wheel {
+  position: absolute;
+  top: 119px;
+}
+.car .wheel.front {
+  left: 86px;
+}
+.car .headlights {
+  position: absolute;
+  top: -50px;
+  left: 127px;
+  opacity: 0.9;
+  -webkit-animation: headlights 1.3s linear infinite;
+  -moz-animation: headlights 1.3s linear infinite;
+  animation: headlights 1.3s linear infinite;
+}
+.letterbox_container{
+  position: fixed;
+  bottom: 445px;
+  width: 181px;
+}
