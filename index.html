@@ -94,7 +94,12 @@
 			<div class="scene_inner" style="height: 774px; ">
 				<div class="callout skrollable skrollable-between">
 					<div class="text">
-
+						职业技能：<br/>
+						js angularJS node backbone 精通<br/>
+						css less sass 精通<br/>
+						php 精通<br/>
+						python 熟悉<br/>
+						golang 入门<br/>
 					</div>
 				</div>
 		</div>
@@ -109,14 +114,10 @@
 	<script type="text/javascript" src="js/waypoint.js"></script>
 	<script type="text/javascript">
 	var dit_is_niceau_parallax = new Parallax(document.getElementById('dit_is_niceau'));
-	skrollr.init({
-		forceHeight: false,
-		easing: {
-			// vibrate: function(p) {
-			// 	return Math.sin(p * 10 * Math.PI);
-			// }
-		}
-	});
+	skrollr.init({forceHeight: false,});
+	if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+		alert("不支持 手机观看");
+	}
 	</script>
 </body>
 </html>
