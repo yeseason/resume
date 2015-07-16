@@ -75,7 +75,7 @@ body {
   border-top: 3px solid #308791;
 }
 .callout .text {
-  text-align: center;
+  text-align: left;
   color: #333;
   font: 38px/42px dinregular, Arial, sans-serif;
 }

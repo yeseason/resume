@@ -29,8 +29,7 @@
         <div class="layer text" data-depth="0.30" style="transform: translate3d(-21.4568218503142px, -4.38591737382728px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
           <p>
           	姓名：谢瑞卿 性别：男  年龄27<br/>
-          	未婚  身高:170m<br/>
-          	2013年 毕业于韶关学院<br/>
+          	未婚  身高:170cm<br/>
           </p>
         </div>
         <div class="layer next_section" data-depth="0.20" style="transform: translate3d(-14.3045479002095px, -2.92394491588485px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
@@ -61,20 +60,23 @@
 			<div class="callout skrollable skrollable-between" data-0="transform: translate(-200px, 200px);opacity: 0;" data-3000="transform: translate(0px, 0px); opacity: 1;" data-3400="transform: translate(-1500px, 0px);"  >
 
 				<div class="text">
-					彩讯科技<br>
-					<strong>前端工程师</strong>
+					彩讯科技<br/>
+					前端工程师<br/>
+					<strong></strong>
 				</div>
 			</div>
 			<div class="callout skrollable skrollable-between" style="left:50%" data-4400="transform: translate(-200px, 200px);opacity: 0;" data-5400="transform: translate(0px, 0px); opacity: 1;" data-6400="transform: translate(-1500px, 0px);" >
 				<div class="text">
 					壹心理<br>
-					<strong>前端工程师</strong>
+					前端工程师<br/>
+					<strong></strong>
 				</div>
 			</div>
 			<div class="callout skrollable skrollable-between" style="left:80%" data-7400="transform: translate(-200px, 200px);opacity:0;" data-8400="transform: translate(0px, 0px); opacity:1;" data-9400="transform: translate(-1500px, 0px);">
 				<div class="text">
 					读览天下<br>
-					<strong>前端工程师</strong>
+					前端工程师<br/>
+					<strong></strong>
 				</div>
 			</div>
 			<div class="road"></div>
@@ -89,16 +91,16 @@
 		</div>
 	</div>
    
-	<div class="scene colour_fence skrollable skrollable-between" data-10000="height: 0%;" data-12000="height: 100%;" data-17000="display: block;" style="height: 100%; display: block;">
-		<div class="scene_inner" style="height: 774px; ">
+	<div  class="scene colour_fence skrollable skrollable-between" data-10000="height: 0%;" data-12000="height: 100%;" data-17000="display: block;" style="height: 100%; display: block;">
+		<div id="skill" class="scene_inner"  data-scalar-y="4">
 			<div class="scene_inner" style="height: 774px; ">
-				<div class="callout skrollable skrollable-between">
-					<div class="text">
+				<div class="callout skrollable skrollable-between" >
+					<div class="text" data-depth="0.30" style="transform: translate3d(-20.0263670602932px, -4.09352288223879px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
 						职业技能：<br/>
-						js angularJS node backbone 精通<br/>
-						css less sass 精通<br/>
-						php 精通<br/>
-						python 熟悉<br/>
+						js angularJS node backbone 熟练<br/>
+						css less sass 熟练<br/>
+						php 熟练<br/>
+						python 熟练<br/>
 						golang 入门<br/>
 					</div>
 				</div>
@@ -114,6 +116,8 @@
 	<script type="text/javascript" src="js/waypoint.js"></script>
 	<script type="text/javascript">
 	var dit_is_niceau_parallax = new Parallax(document.getElementById('dit_is_niceau'));
+	var skill = new Parallax(document.getElementById('skill'));
+	
 	skrollr.init({forceHeight: false,});
 	if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
 		alert("不支持 手机观看");
